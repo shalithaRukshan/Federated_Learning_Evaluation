@@ -1,0 +1,69 @@
+
+cf matrix for slice :6
+[[7515   53   35   51   51]
+ [  40 5294    3    0    1]
+ [   2    0    9    0    0]
+ [  21    5   17  344    1]
+ [  41    2    9    7 1348]]
+cf matrix for slice :6
+[[7172   48   65  368   52]
+ [  53 5281    3    0    1]
+ [   1    0    8    2    0]
+ [  52    7   51  269    9]
+ [  30    1   11   11 1354]]
+cf matrix for slice :6
+[[6728   61   55  839   22]
+ [  19 5278    3   35    3]
+ [   1    0    7    3    0]
+ [ 138    5   28  215    2]
+ [  22    0    9   18 1358]]
+cf matrix for slice :6
+[[7074   18   23  417  173]
+ [ 144 5178    0    6   10]
+ [   2    0    1    6    2]
+ [ 158    2    1  145   82]
+ [  15    1    0    3 1388]]
+cf matrix for slice :6
+[[7004   36   84  546   35]
+ [  50 5272    2    8    6]
+ [   5    0    1    5    0]
+ [ 181    1    8  193    5]
+ [  29    0    5   19 1354]]
+cf matrix for slice :6
+[[6159  147   97 1272   30]
+ [  94 5174    0   60   10]
+ [   6    0    0    5    0]
+ [  39   14    2  326    7]
+ [ 212  120    9   60 1006]]
+Centralized Mean train accuracy: 0.9398428217107919
+Centralized Mean test accuracy: 0.9086234763283724
+before training main model
+cf matrix for slice :6
+[[   0 6564    0  441  700]
+ [   0 4992    0  237  109]
+ [   0    9    0    0    2]
+ [   0  302    0   18   68]
+ [   6  899   21  408   73]]
+after training main model
+cf matrix for slice :6
+[[7060   94   45  210  296]
+ [  95 5221    3    0   19]
+ [   1    0    7    3    0]
+ [  54   12   20  295    7]
+ [  33    1   10    4 1359]]
+Before training federated
+     sample  local_ind_model  merged_main_model
+0  sample 0           0.9761             0.3423
+1  sample 1           0.9001             0.3423
+2  sample 2           0.9311             0.3423
+3  sample 3           0.9228             0.3423
+4  sample 4           0.8861             0.3423
+5  sample 5           0.8845             0.3423
+After training federated
+     sample  local_ind_model  merged_main_model
+0  sample 0           0.9761             0.9389
+1  sample 1           0.9001             0.9389
+2  sample 2           0.9311             0.9389
+3  sample 3           0.9228             0.9389
+4  sample 4           0.8861             0.9389
+5  sample 5           0.8845             0.9389

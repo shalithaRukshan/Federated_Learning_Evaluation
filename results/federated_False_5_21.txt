@@ -1,0 +1,73 @@
+
+cf matrix for slice :5
+[[7579   21    0   93   12]
+ [ 138 5197    0    3    0]
+ [   7    0    0    4    0]
+ [  30    2    0  355    1]
+ [  72    3    0   28 1304]]
+cf matrix for slice :5
+[[7542   32    0  113   18]
+ [  82 5256    0    0    0]
+ [   9    0    0    2    0]
+ [ 297    4    0   85    2]
+ [ 100    1    0   11 1295]]
+cf matrix for slice :5
+[[7568   43    0   67   27]
+ [  71 5264    0    3    0]
+ [   6    0    0    4    1]
+ [ 219    3    0  163    3]
+ [  56    1    0   17 1333]]
+cf matrix for slice :5
+[[7580   39    0   25   61]
+ [  89 5240    0    3    6]
+ [   4    0    0    5    2]
+ [ 180    2    0   97  109]
+ [  55    1    0    8 1343]]
+cf matrix for slice :5
+[[7571   74    0    5   55]
+ [ 110 5214    0    0   14]
+ [  10    0    0    1    0]
+ [ 300    6    0   79    3]
+ [ 206   23    0    2 1176]]
+Centralized Mean train accuracy: 0.9531447759181567
+Centralized Mean test accuracy: 0.9526345208431546
+before training main model
+cf matrix for slice :5
+[[  11    0 6761  918   15]
+ [   0    0 4184 1154    0]
+ [   0    0    5    6    0]
+ [   0    0  336   49    3]
+ [ 190    0  228  829  160]]
+after training main model
+cf matrix for slice :5
+[[7613   54    0    5   33]
+ [  76 5262    0    0    0]
+ [  11    0    0    0    0]
+ [ 334   16    0   35    3]
+ [  87    3    0    0 1317]]
+Before training federated
+     sample  local_ind_model  merged_main_model
+0  sample 0           0.9755             0.0152
+1  sample 1           0.9586             0.0152
+2  sample 2           0.9636             0.0152
+3  sample 3           0.9629             0.0152
+4  sample 4           0.9360             0.0152
+After training federated
+     sample  local_ind_model  merged_main_model
+0  sample 0           0.9755             0.9581
+1  sample 1           0.9586             0.9581
+2  sample 2           0.9636             0.9581
+3  sample 3           0.9629             0.9581
+4  sample 4           0.9360             0.9581
+cf matrix for slice :5
+[[7634   45    0   18    8]
+ [  24 5314    0    0    0]
+ [   5    0    6    0    0]
+ [ 213    2    0  170    3]
+ [  70    0    0    7 1330]]
+cf matrix for slice :5
+[[7613   45    1   36   10]
+ [   9 5329    0    0    0]
+ [   5    0    6    0    0]
+ [ 188    6    1  191    2]
+ [  43    2    0   10 1352]]

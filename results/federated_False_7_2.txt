@@ -1,0 +1,77 @@
+
+cf matrix for slice :7
+[[7530   76    0   72   27]
+ [  76 5258    0    3    1]
+ [   5    2    0    4    0]
+ [  38    5    0  343    2]
+ [  64    3    0   21 1319]]
+cf matrix for slice :7
+[[7601   15    0   46   43]
+ [ 144 5191    0    3    0]
+ [   5    0    0    6    0]
+ [  75    4    0  305    4]
+ [  60    1    0   12 1334]]
+cf matrix for slice :7
+[[7521   83    0   60   41]
+ [  57 5278    0    3    0]
+ [   5    0    0    6    0]
+ [ 228    8    0  150    2]
+ [  58    5    0   13 1331]]
+cf matrix for slice :7
+[[7547   76    0   28   54]
+ [  71 5267    0    0    0]
+ [   5    0    0    5    1]
+ [ 378    4    0    2    4]
+ [  68    3    0    2 1334]]
+cf matrix for slice :7
+[[7603   81    0    5   16]
+ [  36 5302    0    0    0]
+ [   5    3    0    2    1]
+ [ 343   12    0   30    3]
+ [ 106   10    0    1 1290]]
+cf matrix for slice :7
+[[7527   75    0   58   45]
+ [  43 5287    0    3    5]
+ [   9    0    0    2    0]
+ [ 257   21    0  104    6]
+ [  66    0    0   17 1324]]
+cf matrix for slice :7
+[[7399  176    0   29  101]
+ [ 182 5119    0   12   25]
+ [  11    0    0    0    0]
+ [ 247   66    0   72    3]
+ [ 256  112    0    9 1030]]
+Centralized Mean train accuracy: 0.9501717358237615
+Centralized Mean test accuracy: 0.9475140221082707
+before training main model
+cf matrix for slice :7
+[[   5 7700    0    0    0]
+ [   0 5338    0    0    0]
+ [   0   11    0    0    0]
+ [   0  388    0    0    0]
+ [   0 1407    0    0    0]]
+after training main model
+cf matrix for slice :7
+[[7552   80    0   22   51]
+ [ 129 5206    0    3    0]
+ [   7    0    0    4    0]
+ [ 254   22    0  108    4]
+ [  71    6    0    9 1321]]
+Before training federated
+     sample  local_ind_model  merged_main_model
+0  sample 0           0.9741             0.3598
+1  sample 1           0.9679             0.3598
+2  sample 2           0.9575             0.3598
+3  sample 3           0.9620             0.3598
+4  sample 4           0.9597             0.3598
+5  sample 5           0.9411             0.3598
+6  sample 6           0.9147             0.3598
+After training federated
+     sample  local_ind_model  merged_main_model
+0  sample 0           0.9741             0.9554
+1  sample 1           0.9679             0.9554
+2  sample 2           0.9575             0.9554
+3  sample 3           0.9620             0.9554
+4  sample 4           0.9597             0.9554
+5  sample 5           0.9411             0.9554
+6  sample 6           0.9147             0.9554

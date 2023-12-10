@@ -1,0 +1,67 @@
+
+cf matrix for slice :5
+[[7612   34    0   56    3]
+ [  83 5252    0    3    0]
+ [   5    0    0    6    0]
+ [  46    2    0  338    2]
+ [  87    1    0   19 1300]]
+cf matrix for slice :5
+[[7647   42    0    2   14]
+ [  69 5269    0    0    0]
+ [   9    0    0    2    0]
+ [ 385    3    0    0    0]
+ [ 114    1    0    0 1292]]
+cf matrix for slice :5
+[[7546    8    0  118   33]
+ [ 120 5199    0   18    1]
+ [   4    0    0    6    1]
+ [ 197    1    0  186    4]
+ [  54    1    0   17 1335]]
+cf matrix for slice :5
+[[7649   24    0    6   26]
+ [ 115 5223    0    0    0]
+ [   9    0    0    1    1]
+ [ 300    2    0   82    4]
+ [  73    1    0    5 1328]]
+cf matrix for slice :5
+[[7417  100    0  178   10]
+ [ 105 5189    0   37    7]
+ [   8    0    0    3    0]
+ [ 105    8    0  272    3]
+ [ 235   28    0   32 1112]]
+Centralized Mean train accuracy: 0.9535539958510852
+Centralized Mean test accuracy: 0.9535254899319818
+before training main model
+cf matrix for slice :5
+[[   0    0 7705    0    0]
+ [   0    0 5338    0    0]
+ [   0    0   11    0    0]
+ [   0    0  388    0    0]
+ [   0    0 1407    0    0]]
+after training main model
+cf matrix for slice :5
+[[7634   24    0    7   40]
+ [ 132 5205    0    0    1]
+ [   7    0    0    4    0]
+ [ 308   13    0   65    2]
+ [  84    1    0    0 1322]]
+Before training federated
+     sample  local_ind_model  merged_main_model
+0  sample 0           0.9756             0.0007
+1  sample 1           0.9589             0.0007
+2  sample 2           0.9605             0.0007
+3  sample 3           0.9559             0.0007
+4  sample 4           0.9372             0.0007
+After training federated
+     sample  local_ind_model  merged_main_model
+0  sample 0           0.9756             0.9580
+1  sample 1           0.9589             0.9580
+2  sample 2           0.9605             0.9580
+3  sample 3           0.9559             0.9580
+4  sample 4           0.9372             0.9580
+cf matrix for slice :5
+[[7643   32    2   19    9]
+ [   4 5334    0    0    0]
+ [   5    0    6    0    0]
+ [ 177    1    1  207    2]
+ [  24    0    0    2 1381]]

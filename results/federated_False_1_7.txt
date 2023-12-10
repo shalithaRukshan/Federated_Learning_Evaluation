@@ -1,0 +1,9 @@
+
+cf matrix for slice :1
+[[7615   28    0   54    8]
+ [  55 5282    0    0    1]
+ [   5    0    6    0    0]
+ [ 100    1    1  284    2]
+ [  72    0    0    9 1326]]
+Centralized Mean train accuracy: 0.9623751561716805
+Centralized Mean test accuracy: 0.974786180887602

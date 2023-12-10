@@ -1,0 +1,25 @@
+
+cf matrix for slice :2
+[[7664   41]
+ [ 293 6853]]
+cf matrix for slice :2
+[[7359  346]
+ [  71 7075]]
+Centralized Mean train accuracy: 0.9635569879448574
+Centralized Mean test accuracy: 0.9747761093529054
+before training main model
+cf matrix for slice :2
+[[  34 7671]
+ [2408 4738]]
+after training main model
+cf matrix for slice :2
+[[7582  123]
+ [ 198 6948]]
+Before training federated
+     sample  local_ind_model  merged_main_model
+0  sample 0           0.9867             0.3213
+1  sample 1           0.9802             0.3213
+After training federated
+     sample  local_ind_model  merged_main_model
+0  sample 0           0.9867             0.9784
+1  sample 1           0.9802             0.9784

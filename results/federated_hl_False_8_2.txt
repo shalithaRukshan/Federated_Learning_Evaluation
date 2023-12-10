@@ -1,0 +1,55 @@
+
+cf matrix for slice :8
+[[7515  190]
+ [ 120 7026]]
+cf matrix for slice :8
+[[7577  128]
+ [ 235 6911]]
+cf matrix for slice :8
+[[7663   42]
+ [ 363 6783]]
+cf matrix for slice :8
+[[7560  145]
+ [ 149 6997]]
+cf matrix for slice :8
+[[7421  284]
+ [  97 7049]]
+cf matrix for slice :8
+[[7514  191]
+ [ 126 7020]]
+cf matrix for slice :8
+[[7588  117]
+ [ 360 6786]]
+cf matrix for slice :8
+[[6954  751]
+ [ 470 6676]]
+Centralized Mean train accuracy: 0.9570890091499594
+Centralized Mean test accuracy: 0.9588579893609855
+before training main model
+cf matrix for slice :8
+[[7705    0]
+ [7114   32]]
+after training main model
+cf matrix for slice :8
+[[7470  235]
+ [ 205 6941]]
+Before training federated
+     sample  local_ind_model  merged_main_model
+0  sample 0           0.9733             0.5210
+1  sample 1           0.9805             0.5210
+2  sample 2           0.9780             0.5210
+3  sample 3           0.9777             0.5210
+4  sample 4           0.9785             0.5210
+5  sample 5           0.9772             0.5210
+6  sample 6           0.9515             0.5210
+7  sample 7           0.8892             0.5210
+After training federated
+     sample  local_ind_model  merged_main_model
+0  sample 0           0.9733             0.9704
+1  sample 1           0.9805             0.9704
+2  sample 2           0.9780             0.9704
+3  sample 3           0.9777             0.9704
+4  sample 4           0.9785             0.9704
+5  sample 5           0.9772             0.9704
+6  sample 6           0.9515             0.9704
+7  sample 7           0.8892             0.9704

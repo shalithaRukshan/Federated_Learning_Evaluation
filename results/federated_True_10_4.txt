@@ -1,0 +1,101 @@
+
+cf matrix for slice :10
+[[7361  126   40  138   40]
+ [  34 5301    3    0    0]
+ [   2    0    9    0    0]
+ [  10    5    6  367    0]
+ [  45    2    6   16 1338]]
+cf matrix for slice :10
+[[7358   48    4  248   47]
+ [  61 5259    0   18    0]
+ [   4    0    6    1    0]
+ [  18    1    1  365    3]
+ [  38    1    0   21 1347]]
+cf matrix for slice :10
+[[6933   36   64  633   39]
+ [ 100 5228    4    2    4]
+ [   2    0    6    2    1]
+ [ 150    4   88  135   11]
+ [  47    1   10   13 1336]]
+cf matrix for slice :10
+[[6475   72   56 1047   55]
+ [  15 5301    3   19    0]
+ [   1    0    8    2    0]
+ [ 117    3   23  242    3]
+ [  34    1   11   20 1341]]
+cf matrix for slice :10
+[[6686   66   28  842   83]
+ [  29 5273    0   28    8]
+ [   2    0    5    4    0]
+ [ 143    2    1  235    7]
+ [  19    1    0   29 1358]]
+cf matrix for slice :10
+[[6489   47   62 1031   76]
+ [  18 5261    0   59    0]
+ [   3    0    1    6    1]
+ [ 142    7    6  174   59]
+ [  18    1    0   33 1355]]
+cf matrix for slice :10
+[[6980   63   15  594   53]
+ [  29 5294    0   13    2]
+ [   2    0    5    4    0]
+ [ 131   18    1  212   26]
+ [  22    3    0   25 1357]]
+cf matrix for slice :10
+[[6437   49   31 1155   33]
+ [  17 5270    0   51    0]
+ [   5    0    1    5    0]
+ [ 105    3    2  274    4]
+ [  39    2    2   49 1315]]
+cf matrix for slice :10
+[[6893  104   86  578   44]
+ [  28 5251    0   33   26]
+ [   1    0    5    5    0]
+ [  92   27    1  265    3]
+ [  76   24    1   50 1256]]
+cf matrix for slice :10
+[[5919  213  116 1070  387]
+ [ 116 5134    3   60   25]
+ [   3    0    5    3    0]
+ [  35    9   10  331    3]
+ [ 170   88   15   44 1090]]
+Centralized Mean train accuracy: 0.9359523961737085
+Centralized Mean test accuracy: 0.9000821604148425
+before training main model
+cf matrix for slice :10
+[[ 101 7426    1  177    0]
+ [ 805 4531    0    2    0]
+ [   0   11    0    0    0]
+ [   1  387    0    0    0]
+ [ 317 1058   32    0    0]]
+after training main model
+cf matrix for slice :10
+[[7149   96   17  275  168]
+ [ 101 5214    0    6   17]
+ [   0    0    6    4    1]
+ [  51   21    2  303   11]
+ [  26    1    0   21 1359]]
+Before training federated
+     sample  local_ind_model  merged_main_model
+0  sample 0           0.9718             0.3119
+1  sample 1           0.8995             0.3119
+2  sample 2           0.8759             0.3119
+3  sample 3           0.9172             0.3119
+4  sample 4           0.9232             0.3119
+5  sample 5           0.8781             0.3119
+6  sample 6           0.9377             0.3119
+7  sample 7           0.9273             0.3119
+8  sample 8           0.9162             0.3119
+9  sample 9           0.8804             0.3119
+After training federated
+     sample  local_ind_model  merged_main_model
+0  sample 0           0.9718             0.9449
+1  sample 1           0.8995             0.9449
+2  sample 2           0.8759             0.9449
+3  sample 3           0.9172             0.9449
+4  sample 4           0.9232             0.9449
+5  sample 5           0.8781             0.9449
+6  sample 6           0.9377             0.9449
+7  sample 7           0.9273             0.9449
+8  sample 8           0.9162             0.9449
+9  sample 9           0.8804             0.9449
