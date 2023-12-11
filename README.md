@@ -7,7 +7,7 @@ The following federated learning implementation has been considered in these exp
 
 ![Alt text](fl-new.png "Proposed Architecture")
 
-##References
+## References
 
 [1] Wijethilaka, Shalitha, and Madhusanka Liyanage. "The role of security orchestrator in network slicing for future networks." Journal of Communications and Networks 25.3 (2023): 355-369.
 
